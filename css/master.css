@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'MADE Sunflower';
+    src: url("fonts/MADESunflower.woff2") format('woff2'),
+        url("fonts/MADESunflower.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Louis George Cafe\'';
+    src: url("fonts/LouisGeorgeCafe.woff2") format('woff2'),
+        url("fonts/LouisGeorgeCafe.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NewYork';
+    src: url(fonts/NewYork.woff2) format('woff2'),
+        url(fonts/NewYork.woff2) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+}
+
+body {background-color: #fdfdfd;
+font-family: 'Louis George Cafe';
+text-align: center;
+line-height: 1.5;}
+
+
+
+h1 {font-family: 'Made Sunflower';
+    color: #969b74;
+    font-size: 300%;
+    text-align: center;}
+
+h2 {font-family:'NewYork';
+    text-align: center;}
+
+ul {list-style-type: none;
+    color: #4b5a67;
+    text-align: center;}
+
+p.footer {text-align: center;}
+
+a {color: #4b5a67;
+   text-decoration: none;}
+
+a:hover {color: #969b74;
+         text-decoration: underline;} 
+         
+table.links {margin-left: auto;
+             margin-right: auto;
+             border-spacing: 35px 40px;}
+
+header {box-shadow: 0 10px 10px -5px #dbdada;}
+
+footer {box-shadow: -5px -10px 20px #dbdada;}
+
