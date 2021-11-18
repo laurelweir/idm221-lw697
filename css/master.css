@@ -1,3 +1,5 @@
+* {box-sizing: border-box;}
+
 @font-face {
     font-family: 'MADE Sunflower';
     src: url("fonts/MADESunflower.woff2") format('woff2'),
@@ -7,24 +9,7 @@
     font-display: swap;
 }
 
-@font-face {
-    font-family: 'Louis George Cafe\'';
-    src: url("fonts/LouisGeorgeCafe.woff2") format('woff2'),
-        url("fonts/LouisGeorgeCafe.woff") format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-    font-family: 'NewYork';
-    src: url(fonts/NewYork.woff2) format('woff2'),
-        url(fonts/NewYork.woff2) format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-}
 
 body {background-color: #fdfdfd;
 font-family: 'Louis George Cafe';
@@ -45,7 +30,8 @@ ul {list-style-type: none;
     color: #4b5a67;
     text-align: center;}
 
-p.footer {text-align: center;}
+p.footer {text-align: center;
+          padding-top: 0;}
 
 a {color: #4b5a67;
    text-decoration: none;}
@@ -55,9 +41,38 @@ a:hover {color: #969b74;
          
 table.links {margin-left: auto;
              margin-right: auto;
-             border-spacing: 35px 40px;}
+             border-spacing: 10px 20px;
+            padding-top: 0;
+            margin-top: 0%;}
 
 header {box-shadow: 0 10px 10px -5px #dbdada;}
 
-footer {box-shadow: -5px -10px 20px #dbdada;}
+footer {box-shadow: -5px -10px 20px #dbdada;
+        position: absolute;
+        width: 100%;}
 
+p.copy {padding: 0;
+        margin: 0;}
+
+figure {margin: auto;
+        padding-top: 0.2rem;}
+
+figure.top {padding-top: 1.2rem;}
+figure.bottom {padding-bottom: 1rem;}
+
+img.logo {width: 80%;
+          height: auto;
+            max-width: 600px;
+          padding-bottom: 1rem;
+        margin-top: 0;}
+
+.logo {margin-top: 1rem;}
+
+img.photo{width: 90%;
+          height: auto;
+          max-width: 700px;}
+nav.header {padding-top: 8rem;}
+header {position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #fdfdfd;}
