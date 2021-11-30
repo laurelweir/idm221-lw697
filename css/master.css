@@ -63,7 +63,7 @@ figure.bottom {padding-bottom: 1rem;}
 img.logo {width: 80%;
           height: auto;
             max-width: 600px;
-          padding-bottom: 1rem;
+          padding: 1rem 0;
         margin-top: 0;}
 
 .logo {margin-top: 1rem;}
@@ -71,8 +71,13 @@ img.logo {width: 80%;
 img.photo{width: 90%;
           height: auto;
           max-width: 700px;}
-nav.header {padding-top: 8rem;}
-header {position: fixed;
+nav.header {padding-top: 6rem;}
+header {position: static;
         top: 0;
         left: 0;
         background-color: #fdfdfd;}
+
+div.logo {position: fixed;
+background-color: #fdfdfd;
+margin: auto;
+margin-top: 0;}
