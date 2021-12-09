@@ -1,15 +1,33 @@
 * {box-sizing: border-box;}
 
+/* fonts */
+
 @font-face {
-    font-family: 'MADE Sunflower';
-    src: url("fonts/MADESunflower.woff2") format('woff2'),
-        url("fonts/MADESunflower.woff") format('woff');
+    font-family: 'Louis George Cafe';
+    src: url("fonts/LouisGeorgeCafe.woff2") format('woff2'),
+        url("fonts/LouisGeorgeCafe.woff") format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'TeXGyreSchola';
+    src: url('fonts/TeXGyreSchola-Regular.woff2') format('woff2'),
+        url('fonts/TeXGyreSchola-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
+@font-face {
+    font-family: 'JMH Typewriter';
+    src: url(fonts/JMHTypewriter-Regular.woff2) format('woff2'),
+        url(fonts/JMHTypewriter-Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {background-color: #fdfdfd;
 font-family: 'Louis George Cafe';
@@ -17,67 +35,98 @@ text-align: center;
 line-height: 1.5;}
 
 
-
-h1 {font-family: 'Made Sunflower';
-    color: #969b74;
-    font-size: 300%;
-    text-align: center;}
-
-h2 {font-family:'NewYork';
-    text-align: center;}
-
-ul {list-style-type: none;
-    color: #4b5a67;
-    text-align: center;}
-
-p.footer {text-align: center;
-          padding-top: 0;}
-
-a {color: #4b5a67;
-   text-decoration: none;}
-
-a:hover {color: #969b74;
-         text-decoration: underline;} 
-         
-table.links {margin-left: auto;
-             margin-right: auto;
-             border-spacing: 10px 20px;
-            padding-top: 0;
-            margin-top: 0%;}
+/* CSS for header/logo/nav  */
 
 header {box-shadow: 0 10px 10px -5px #dbdada;}
 
-footer {box-shadow: -5px -10px 20px #dbdada;
-        position: absolute;
-        width: 100%;}
+div.logo {position: fixed;
+          background-color: #fdfdfd;
+          margin: auto;
+          margin-top: 0;
+          width:100%;}
+    
+div.hidden {position: static;
+             background-color: #fdfdfd;
+             margin: auto;
+             margin-top: 0;
+             width:100%;}
 
-p.copy {padding: 0;
-        margin: 0;}
+table.links {margin-left: auto;
+             margin-right: auto;
+             border-spacing: 10px 20px;
+             margin-top: 0%;
+             width: 100%;
+             font-family:'JMH Typewriter';
+             text-align: center;}
+            
+.logo {margin-top: 1rem;}
+
+/* images / figures */
 
 figure {margin: auto;
-        padding-top: 0.2rem;}
+    padding-top: 0.2rem;}
 
 figure.top {padding-top: 1.2rem;}
 figure.bottom {padding-bottom: 1rem;}
 
 img.logo {width: 80%;
-          height: auto;
-            max-width: 600px;
-          padding: 1rem 0;
-        margin-top: 0;}
+      height: auto;
+        max-width: 400px;
+      padding: 1rem 0;
+    margin-top: 0;}
 
-.logo {margin-top: 1rem;}
+
 
 img.photo{width: 90%;
-          height: auto;
-          max-width: 700px;}
-nav.header {padding-top: 6rem;}
-header {position: static;
-        top: 0;
-        left: 0;
-        background-color: #fdfdfd;}
+      height: auto;
+      max-width: 600px;}
 
-div.logo {position: fixed;
-background-color: #fdfdfd;
+img.about {max-width: 500px;}
+
+
+/* text */
+
+a {color: #4b5a67;
+   text-decoration: none;}
+
+a:hover {color: #969b74;
+          text-decoration: underline;} 
+
+h2 {font-family: 'TeXGyreSchola';
+            color: #969b74;
+            font-size: 1.5rem;
+            text-align: center;}
+
+a.contact {color: #969b74;}
+
+li.contact {text-align: center;
+font-size: 90%;}
+
+p {font-size: 1.1rem;
 margin: auto;
-margin-top: 0;}
+margin-bottom: 1rem;
+max-width: 400px;
+padding: .5rem;}
+
+/* footer */
+
+ul {list-style-type: none;  
+    color: #4b5a67;
+    text-align: center;}
+
+p.footer {text-align: center;
+          padding-top: 1rem;}
+
+
+footer {box-shadow: -5px -10px 20px #dbdada;
+        position: absolute;
+        width: 100%;}
+
+p.copy {text-align: center;
+        margin-top: 0;
+        padding-top: 0;}
+
+
+
+
+
