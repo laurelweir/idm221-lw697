@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'Louis George Cafe';
-    src: url("fonts/LouisGeorgeCafe.woff2") format('woff2'),
-        url("fonts/LouisGeorgeCafe.woff") format('woff');
+    src: url('fonts/LouisGeorgeCafe.woff2') format('woff2'),
+        url('fonts/LouisGeorgeCafe.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -22,8 +22,8 @@
 
 @font-face {
     font-family: 'JMH Typewriter';
-    src: url(fonts/JMHTypewriter-Regular.woff2) format('woff2'),
-        url(fonts/JMHTypewriter-Regular.woff) format('woff');
+    src: url('fonts/JMHTypewriter-Regular.woff2') format('woff2'),
+        url('fonts/JMHTypewriter-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -32,7 +32,7 @@
 body {background-color: #fdfdfd;
 font-family: 'Louis George Cafe';
 text-align: center;
-line-height: 1.5;}
+line-height: 1.75;}
 
 
 /* CSS for header/logo/nav  */
@@ -100,7 +100,8 @@ h2 {font-family: 'TeXGyreSchola';
 a.contact {color: #969b74;}
 
 li.contact {text-align: center;
-font-size: 90%;}
+font-size: 100%;
+margin-left: 0;}
 
 p {font-size: 1.1rem;
 margin: auto;
